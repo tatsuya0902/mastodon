@@ -105,5 +105,5 @@ class REST::InstanceSerializer < ActiveModel::Serializer
 
   def instance_presenter
     @instance_presenter ||= InstancePresenter.new
-  end
+  end 
 end
